@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+
+
+        }
+        .p{
+            color:red;
+            font-weight:900;
+            font-size:50px;
+            margin:0 auto;
+            text-align:center;
+            letter-spacing;5px;
+            padding-top:100px
+
+        }
+        .ii{
+            background-color:#FFF5DB;
+            width:1000px;
+            height:1000px;
+            margin:0 auto;
+
+        }
+        input{
+            border:solid 2px;
+            border-radius:15px;
+            background-color:#DBDCDE;
+            height:50px;
+            padding-left:20px;
+            font-size:35px;
+            width:700px;
+            display:block;
+            margin:0 auto;
+            margin-top:50px
+        }
+        input:hover{
+            background-color:#F5F8FE;
+            color:red;
+
+        }
+        input:active{
+            background-color:#FFF5DB
+        }
+        .ss{
+            width:500px;
+            display:block;
+            font-size:50px;
+            line-height:80px;
+            background-color:orange;
+            height:80px;
+            margin:0 auto;
+            margin-top:50px;
+            border:5px solid green;
+            border-radius:20px;
+            letter-spacing:50px;
+            font-weight:900
+        }
+        .ss:hover{
+            background-color:pink;
+            color:red;
+        }
+        .ss:active{
+            background-color:yellow;
+            color:black;
+        }
+    </style>
+
+</head>
+<body>
+<div class="ii">
+    <h1 class="p">用户登录</h1>
+    <form action="/login" method="post">
+        <input type="text" name="user" placeholder="请输入账号">
+        <input type="password" name="password" placeholder="请输入密码">
+        <button type="submit" class="ss">提交</button>
+    </form>
+    <form action="/res" method="get">
+        <button style="margin-top:20px">没有账号?点击注册</button>
+    </form>
+
+</div>
+</body>
+</html>

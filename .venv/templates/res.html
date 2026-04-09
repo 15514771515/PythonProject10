@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+
+        }
+        .ll{
+            text-align:center;
+            font-size:60px;
+            font-weight:70px;
+            letter-spacing:10px;
+            background-color;#FFF5DB
+        }
+        .jj{
+            padding-top:100px;
+            width:1000px;
+            height:1100px;
+            background-color:#FFF5DB;
+            margin:0 auto;
+        }
+        .lo{
+            background-color:black;
+            height:80px;
+        }
+        input{
+            display:block;
+            margin:0 auto;
+            margin-top:80px;
+            height:80px;
+            width:800px;
+            font-size:60px;
+            font-weight:700;
+            border:3px solid green;
+            padding-left:30px;
+            border-radius:50px;
+            }
+        .li{
+            background-color:black;
+            height:80px;
+            margin-bottom:0px;
+        }
+        .op{
+            background-color:orange;
+            margin-left:125px;
+            margin-top:70px;
+            height:90px;
+            width:750px;
+            border:2px solid pink;
+            font-size:50px;
+            font-weight:700;
+            letter-spacing:100px
+        }
+        .li:hover{
+            background-color:pink
+        }
+        .lo:hover{
+            background-color:pink
+        }
+        .op:hover{
+            background-color:pink;
+
+        }
+        .op:active{
+            background-color:orange;
+            color:red
+        }
+        input:hover{
+            background-color:#DFE1E5;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="lo"></div>
+    <div class="jj">
+
+        <h1 class="ll">用户注册</h1>
+        <form action="/res" method="post">
+        <input name="name" placeholder="请输入姓名" type="text">
+        <input placeholder="请输入账号" type="text" name="user">
+        <input placeholder="请输入密码" type="password" name="password1">
+        <input placeholder="请确认密码" name="password2" type="password">
+        <button class="op" type="submit">注册</button>
+        </form>
+    </div>
+    <div class="li"></div>
+
+</body>
+</html>
